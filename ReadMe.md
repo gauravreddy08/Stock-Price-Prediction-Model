@@ -1,3 +1,11 @@
+# Predicting Stock Price using Machine Learning
+This repo contains series of notebooks, which are my submissions to a online Hack-a-thon : Code-2-ML hosted by **CodeChef Chapter VIT AP** and **ML Club VIT AP**.
+
+## Problem Overview
+Initially I was given two datasets namely `Train_dataset_ - Train_Aug10.csv` and `Test_dataset - Put-Call_TS.csv`.
+##### `Train_dataset_ - Train_Aug10.csv`
+This dataset contains various stocks fractors (features) and the respective stock price. The Problem is to make an efficient Machine Learning
+
 ## How to use our Notebooks
 
 #### 1. Install the requirements.txt
