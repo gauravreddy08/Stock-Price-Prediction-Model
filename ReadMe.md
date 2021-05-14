@@ -1,13 +1,19 @@
 # Predicting Stock Price using Machine Learning
-This repo contains series of notebooks, which are my submissions to a online Hack-a-thon : Code-2-ML hosted by [**CodeChef Chapter VIT AP**](https://codechefvitapchapter.tech) and [**ML Club VIT AP**](https://www.instagram.com/mlcvitap/).
+This repo contains series of notebooks, which are my submissions to a online Hack-a-thon : **Code-2-ML** hosted by [**CodeChef Chapter VIT AP**](https://codechefvitapchapter.tech) and [**ML Club VIT AP**](https://www.instagram.com/mlcvitap/).
 
 ## Problem Overview
 Initially I was given two datasets namely `Train_dataset_ - Train_Aug10.csv` and `Test_dataset - Put-Call_TS.csv`.
 ##### `Train_dataset_ - Train_Aug10.csv`
-This dataset contains various stocks fractors (features) and the respective stock price. The Problem is to make an efficient Machine Learning Regression Model that first learns the training data and then predicts the value on test data. The predicted .csv file is named as `file_01.csv`
-##### `Test_dataset - Put-Call_TS.csv`
-This dataset contains a single stock's PutCall Ratio parameter, but on 5 different consecutive days. The Problem is to make an efficient Machine Learning Time Series Model that first learns the training data and then predicts the value on test data. The predicted .csv file is named as `file_02.csv`
+This dataset contains various stock's fractors (features) and the respective stock price. The Problem is to make an Machine Learning Regression Model that first learns on the training dataset and then predicts the value for the test dataset. The predicted .csv file is saved as `file_01.csv`
 
+> **Algorithm used :** Random Forest Regressor
+##### `Test_dataset - Put-Call_TS.csv`
+This dataset contains a single stock's PutCall Ratio parameter, but on 5 different consecutive days. The Problem is to make an efficient Machine Learning Time Series Model that first learns on the training dataset and then predicts the value on test dataset. The predicted .csv file is saved as `file_02.csv`
+
+> **Algorithm used :** VAR : Vector Auto Regressor
+
+<br>
+  
 ## How to use our Notebooks
 
 > You can also avoid all the below steps and instead load the notebooks on **Google Colab** appropriately with the datasets.
